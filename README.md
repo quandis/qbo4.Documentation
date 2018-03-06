@@ -11,19 +11,19 @@ qbo4 implements a patterns and practices as dicrete modules, rather than as a mo
 
 To reference existing qbo4 Nuget packages:
 
-- Ensure nuget.exe is installed (Typically to c:\program files(x86)\nuget)
+- Ensure `nuget.exe` is installed (Typically to `c:\program files(x86)\nuget`)
 - Add http://nuget.quandis.net as a NUGET source 
   - In Visual Studio, Tools > Nuget Package Manager > Package Manager Settings > Package Sources
-  - Name: 'nuget.quandis.net', Source: http://nuget.quandis.net/nuget
+  - Name: `nuget.quandis.net`, Source: `http://nuget.quandis.net/nuget`
 
 To add qbo4 modules to the nuget.quandis.net feed:
 - From Visual Studio's the Package Manager console, cd to a project's folder
 - Create a spec: 
-  - & 'C:\Program Files (x86)\NuGet\Nuget.exe' spec
+  - `& 'C:\Program Files (x86)\NuGet\Nuget.exe' spec`
   - edit the {project}.nuspec file as you see fit
 - Package the project:
-  - & 'C:\Program Files (x86)\NuGet\Nuget.exe' pack qbo4.{propject}.csproj
+  - `& 'C:\Program Files (x86)\NuGet\Nuget.exe' pack qbo4.{propject}.csproj`
   - this will create a {project}.{version}.nupgk file in the compiled output folder (/bin/debug)
-- Copy the .nupkg to the c:\inetput\nuget\packages folder of the http://nuget.quandis.net server
+- Copy the .nupkg to the `c:\inetput\nuget\packages` folder of the `http://nuget.quandis.net` server
 
 
