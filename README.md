@@ -20,8 +20,10 @@ To add qbo4 modules to the nuget.quandis.net feed:
   - `& 'C:\Program Files (x86)\NuGet\Nuget.exe' spec`
   - edit the {project}.nuspec file as you see fit
 - Package the project:
-  - `dotnet pack qbo4.{propject}.csproj`
+  - `dotnet pack qbo4.{propject}.csproj /p:Version={version}`
   - this will create a {project}.{version}.nupgk file in the compiled output folder (/bin/debug)
-- Copy the .nupkg to the `c:\inetput\wwwroot\packages` folder of the `http://nuget.quandis.net` server
+- Publish the package:
+  - `nuget.exe push C:\...\{project}.{version}.nupkg {apiKey} -Source http://nuget.quandis.net/nuget`
+  - contact CTO for an apiKey
 
 
