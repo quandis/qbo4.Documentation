@@ -4,13 +4,13 @@
 
 qbo4 implements a patterns and practices as dicrete modules, rather than as a monolithic software stack.
 
-- qbo4 client modules will be made available as NUGET packages on http://api.nuget.org
-- qbo4 server modules (our primary intellectual property) will be made available as NUGET packages on https://nuget.quandis.net
+- qbo4 client modules will be made available as NuGet packages on http://api.nuget.org
+- qbo4 server modules (our primary intellectual property) will be made available as NuGet packages on https://nuget.quandis.net
 
 
 ### NUGET confiruation
 
-To reference existing qbo4 Nuget packages, add http://nuget.quandis.net as a NUGET source 
+To reference existing qbo4 Nuget packages, add http://nuget.quandis.net as a NuGet source 
 - In Visual Studio, Tools > Nuget Package Manager > Package Manager Settings > Package Sources
 - Name: `nuget.quandis.net`, Source: `http://nuget.quandis.net/nuget`
 
