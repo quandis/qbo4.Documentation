@@ -4,7 +4,8 @@
 
 qbo4 implements a patterns and practices as dicrete modules, rather than as a monolithic software stack.
 
-- qbo4 modules will be made available as NUGET packages on http://nuget.quandis.net
+- qbo4 client modules will be made available as NUGET packages on http://api.nuget.org
+- qbo4 server modules (our primary intellectual property) will be made available as NUGET packages on https://nuget.quandis.net
 
 
 ### NUGET confiruation
