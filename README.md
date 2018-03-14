@@ -2,13 +2,13 @@
 
 ## Project Configuration
 
-qbo4 implements a patterns and practices as dicrete modules, rather than as a monolithic software stack.
+qbo4 implements patterns and practices as discrete modules, rather than as a monolithic software stack.
 
 - qbo4 client modules will be made available as NuGet packages on http://api.nuget.org
 - qbo4 server modules (our primary intellectual property) will be made available as NuGet packages on https://nuget.quandis.net
 
 
-### NUGET confiruation
+### NUGET configuration
 
 To reference existing qbo4 Nuget packages, add http://nuget.quandis.net as a NuGet source 
 - In Visual Studio, Tools > Nuget Package Manager > Package Manager Settings > Package Sources
