@@ -10,9 +10,9 @@ qbo4 implements patterns and practices as discrete modules, rather than as a mon
 
 ### NUGET configuration
 
-To reference existing qbo4 Nuget packages, add http://nuget.quandis.net as a NuGet source 
-- In Visual Studio, Tools > Nuget Package Manager > Package Manager Settings > Package Sources
-- Name: `nuget.quandis.net`, Source: `http://nuget.quandis.net/nuget`
+To reference existing qbo4 Nuget packages, add https://nuget.quandis.net as a NuGet source 
+- In Visual Studio, Tools > Nuget Package Manager > Package Manager Settings > Package Sources, and Add a Source
+- Name: `nuget.quandis.net`, Source: `https://nuget.quandis.net/nuget`
 
 To add qbo4 modules to the nuget.quandis.net feed:
 - Ensure `nuget.exe` is installed (Typically to `c:\program files(x86)\nuget`)
